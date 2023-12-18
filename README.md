@@ -32,10 +32,11 @@ A continuación se enumeran los pasos a seguir para tener éxito en el envío de
         <li>'git lfs track "*.psd"': Este comando selecciona los archivos que desee usar Git LFS (El comando se copia con las comillas dobles)</li>
         <li>'git add .gitattributes': Con el este comando se asegura el seguimiento de archivo elegido anteriormente en .gitattributes</li>
         <li>'git add file.psd': Agregamos el archivo o los archivos en cuestión para enviar al repositorios por medio de Git LFS</li>
-        <li>'git commit -m "first commit"': Realizamos un commit, debe tener un mensaje claro y corto sobre el procedimiento.</li>
+        <li>'git commit -m "first commit"': Realizamos un commit, debe tener un mensaje claro y corto sobre el procedimiento. Si no tiene configurado globalmente git con una cuenta propia de github, debe ejecutar lo que indica la consola y preferible que no quede de forma global para que sepamos quién subió el backup en los commits</li>
         <li>'git branch -M main': Creamos la rama en el repositorio local.</li>
         <li>'git remote add origin url-del-repositorio.git': Conectamos el repositorio remoto al repositorio local y desde ahí subiremos todos los cambios. Reemplace la url del repositorio por el texto "url-del-repositorio.git"</li>
-        <li>'git push -u origin main': Enviamos al repositorio remoto todos los archivos. </li>
+        <li>'git push -u origin main': Enviamos al repositorio remoto todos los archivos.</li>
+        <li>En el momento que se intenta realizar el push del backup, se debe colocar las credenciales que se encuentran en el archivo de "Accesos 2023 | Si Señor"</li>
       </ul>
     </li>
 </ol>
